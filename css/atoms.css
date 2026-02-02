@@ -1,0 +1,253 @@
+.header__h1 {
+    position: absolute;
+    top: -42%;
+    left: 40%;
+    font-size: var(--fs-xxl);
+}
+
+.header__menu-img {
+    margin-right: 1em;
+}
+
+.header__log-ind {
+    position: absolute;
+    top: 0%;
+    right: 1%;
+    color: rgb(13, 0, 0);
+}
+
+.header__log-ind-img {
+    margin-left: 1em;
+}
+
+.header__nav-ul a {
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.header__nav-ul a {
+    color: rgb(13, 0, 0);
+}
+
+.header__orange nav ul li a {
+    color: rgb(235, 63, 29);
+}
+
+.add__side-text {
+    transform: rotate(90deg);
+    position: absolute;
+    right: -6%;
+    top: 43%;
+    color: rgb(176, 176, 176);
+}
+
+.main-story__abonnemant-time {
+    margin-right: 1em;
+    color: rgb(235, 63, 29);
+    text-transform: initial;
+}
+
+.main-story__h2 {
+    max-width: 18em;
+    margin: 0 0 0 -1em;
+    grid-column: 2;
+    font-size: var(--fs-md);
+    text-align: left;
+}
+
+.main-story__text {
+    max-width: 32em;
+    grid-column: 2;
+    margin-left: -2em;
+    font-size: var(--fs-sm);
+    color: rgb(176, 176, 176);
+    text-align: left;
+}
+
+.main-story__img {
+    max-width: 36.75em;
+    max-height: 30.1875em;
+    margin-left: 0.5em;
+    margin-right: -2em;
+    display: block;
+    order: 1;
+}
+
+.main-story__img-text {
+    width: 17em;
+    text-align: right;
+    color: rgb(176, 176, 176);
+    font-size: var(--fs-sm);
+}
+
+.udland__h3 {
+    border-bottom: dotted black 1px;
+    text-align: left;
+    color: rgb(235, 63, 29);
+}
+
+.udland__time {
+    margin-top: 0.8em;
+}
+
+.udland__name {
+    text-align: left;
+}
+
+.udland__name-email {
+     display: flex;
+    justify-content: start;
+    color: rgb(13, 0, 0);
+}
+
+.udland__text {
+    width: 23em;
+    text-align: left;
+    font-size: var(--fs-sm);
+}
+
+.udland__sociel-text {
+    display: flex;
+    align-items: center;
+    gap: 1em;
+    font-size: 0.85rem;
+    color: rgb(255, 255, 255);
+    padding: 0.5em 6em 0.5em 0.5em;
+    width: 6.25em;
+}
+
+.udland__abonnenter {
+    text-align: center;
+}
+
+.udland__klik-bottem {
+    background-color: rgb(221, 0, 0);
+    border: transparent;
+    padding: 0.5em 4em;
+    border-radius: 0.3em;
+    margin-left: 6em;
+    color: rgb(255, 255, 255);
+}
+
+.udland__abonnenter-all {
+    color: rgb(176, 176, 176);
+    text-align: center;
+    font-size: var(--fs-sm);
+}
+
+.udland__abonnenter-log {
+    color: rgb(13, 0, 0);
+    text-decoration: underline;
+    font-size: var(--fs-sm);
+}
+
+.fik__header-text {
+    margin-bottom: 0.5em;
+    color: rgb(235, 63, 29);
+}
+
+.fik__grid article img {
+     width: 100%;
+}
+
+.fik__grid article h3 {
+     font-size: var(--fs-sm);
+}
+
+.seneste__nyt h2 {
+    color: rgb(235, 63, 29);
+    border-bottom: dotted black 1px;
+}
+
+.seneste__nyt-ul li time {
+    display: block;
+}
+
+.seneste__nyt-ul li a {
+    color: rgb(13, 0, 0);
+}
+
+.seneste__grid-Information {
+    grid-column: 3 span;
+    border-bottom: dotted black 1px;
+    text-align: right;
+}
+
+.seneste__grid-Information a {
+    color: rgb(235, 63, 29);
+}
+
+.seneste__grid-forside {
+    grid-column: 3 span;
+    color: rgb(13, 0, 0);
+    gap: 1em;
+    display: flex;
+    margin-bottom: 2em;
+}
+
+.seneste__grid span {
+    display: block;
+    color: rgb(235, 63, 29);
+}
+
+.anbefalinger h2 {
+    border-bottom: dotted black 1px;
+    color: rgb(235, 63, 29);
+}
+
+.anbefalinger h2 {
+    border-bottom: dotted black 1px;
+    color: rgb(235, 63, 29);
+}
+
+.anbefalinger__time {
+    margin-left: 2em;
+    display: block;
+    color: rgb(176, 176, 176);
+}
+
+.anbefalinger__margin-bottem {
+    margin-bottom: 8em;
+    color: rgb(176, 176, 176);
+}
+
+.anbefalinger a {
+    color: rgb(13, 0, 0);
+}
+
+.anbefalinger__registreret {
+    color: rgb(176, 176, 176);
+}
+
+.footer__information ul {
+    font-size: var(--fs-sm);
+}
+
+.footer__news-img {
+    grid-row: 1/6;
+    margin-top: -1em;
+}
+
+.footer__input {
+    padding: 0.5em 0.5em;
+}
+
+.footer__img-grid h3 {
+    grid-column: 2;
+    margin: 0;
+}
+
+.footer__img-grid ul {
+    grid-column: 2;
+    margin: 0;
+    font-size: var(--fs-sm);
+}
+
+.footer__small-bottem {
+    background-color: rgb(240, 240, 240);
+    grid-row: 3;
+    grid-column: 3;
+    padding: 1em;
+    width: 7em;
+    margin: auto;
+}
