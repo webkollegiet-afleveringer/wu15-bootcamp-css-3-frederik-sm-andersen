@@ -1,0 +1,97 @@
+main {
+    margin: auto;
+    max-width: 56em;
+    display: grid;
+    grid-template-columns: 2fr 3fr;
+}
+
+.header__nav {
+    display: flex;
+    justify-content: center;
+    border-top: 2px rgb(243, 243, 243) solid;
+    border-bottom: 2px rgb(243, 243, 243) solid;
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+
+.header__layout {
+    position: relative;
+}
+
+.header__nav-ul {
+    display: flex;
+    gap: 1em;
+    list-style: none;
+    margin: 0.5em;
+}
+
+.add__figure {
+text-align: center;
+    margin: auto;
+    display: flex;
+    position: relative;
+    text-align: center;
+    margin-inline:max((100% - auto) / 2, 1.5rem);
+    grid-column: span 2;
+}
+
+.main-story__grid {
+    display: grid;
+    grid-template-columns: 2fr 3fr;
+    margin-left: 3em;
+    grid-column: span 2;
+}
+
+.udland__grid {
+    display: grid;
+    grid-auto-columns: 2fr 3fr;
+    grid-column: span 2;
+}
+
+.udland__aside {
+    grid-column: 1;
+}
+
+.udland__text-grid {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    position: relative;
+    grid-column: 2;
+    margin: 0;
+}
+
+.fik__grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr ;
+    grid-template-rows: auto auto;
+    gap: 1em;
+    grid-column: span 2;
+}
+
+.seneste__nyt {
+    margin-right: 1em;
+    margin-left: 2em;
+}
+
+.seneste__grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto auto auto auto;
+    gap: 1em;
+}
+
+.anbefalinger {
+    margin-top: 10em;
+    margin-right: 1em;
+}
+
+.footer {
+    background-color: rgb(215, 215, 215);
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: auto auto auto;
+    gap: 2em;
+    color: rgb(83, 83, 83);
+    font-size: var(--fs-sm);
+    margin-top: 8em;
+}

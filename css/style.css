@@ -1,9 +1,4 @@
-@import url(base.css);
-@import url(header.css);
-@import url(annone.css);
-@import url(main-story.css);
-@import url(udland.css);
-@import url(fik.css);
-@import url(seneste.css);
-@import url(footer.css);
-@import url(anbefalinger.css);
+@import url(atoms.css);
+@import url(organisms.css);
+@import url(templates.css);
+@import url(molecules.css);
